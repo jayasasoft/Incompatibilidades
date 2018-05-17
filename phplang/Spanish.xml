@@ -1,0 +1,1603 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2017/2/14" version="13.0.0" id="es" name="Spanish" desc="Español (México)" author="ing.pablo.barrientos[at]gmail[dot]com">
+  <!--
+*** Important Notes:
+1. Language ID should follow: https: //developers.google.com/recaptcha/docs/language,
+2. Locale settings are placed in a separate locale files under the "locales" folder,
+3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="actiondeleted" value="Eliminado" />
+    <phrase id="actioninserted" value="Guardado" />
+    <phrase id="actioninsertedgridadd" value="Registros guardados" />
+    <phrase id="actionupdated" value="Actualizado" />
+    <phrase id="actionupdatedgridedit" value="Registros actualizados" />
+    <phrase id="actionupdatedmultiupdate" value="Actualizado (múltiple)" />
+    <phrase id="activateaccount" value="Su cuenta ha sido activada" />
+    <phrase id="activatefailed" value="Ocurrió un fallo en la activación" />
+    <phrase id="add" value="Nuevo registro" />
+    <phrase id="addblankrow" value="Agregar otro renglón" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addbtn" value="Guardar" />
+    <phrase id="addlink" value="Nuevo Registro" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="addmasterdetaillink" value="Nuevo registro Maestro/Detalle" class="icon-md-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Registro guardado correctamente" />
+    <phrase id="advancedsearch" value="Búsqueda avanzada" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Buscar" class="icon-advanced-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="allrecords" value="Todos" />
+    <phrase id="allword" value="Todas las palabras" />
+    <phrase id="alwaysask" value="Siempre pedirme el usuario y contraseña" />
+    <phrase id="anyword" value="Cualquier palabra" />
+    <phrase id="audittrailautologin" value="Auto-Ingreso" />
+    <phrase id="audittrailfailedattempt" value="Intento fallido # %n" />
+    <phrase id="audittrailuserloggedin" value="El usuario ya ha iniciado sesión" />
+    <phrase id="audittrailpasswordexpired" value="Contraseña caducada" />
+    <phrase id="audittraillogin" value="Inicia sesión" />
+    <phrase id="audittraillogout" value="Cierra sesión" />
+    <phrase id="autologin" value="Auto-ingresar hasta que yo cierre sesión" />
+    <phrase id="average" value="Promedio" />
+    <phrase id="backtolist" value="Volver" />
+    <phrase id="backtologin" value="Volver a iniciar sesión" />
+    <phrase id="backtomasterrecordpage" value="Volver a tabla maestra" />
+    <phrase id="batchdeletebegin" value="*** Eliminación múltiple iniciada ***" />
+    <phrase id="batchdeleterollback" value="*** Eliminación múltiple revertida ***" />
+    <phrase id="batchdeletesuccess" value="*** Eliminación múltiple exitosa ***" />
+    <phrase id="batchinsertbegin" value="*** Inserción múltiple iniciada ***" />
+    <phrase id="batchinsertrollback" value="*** Inserción múltiple revertida ***" />
+    <phrase id="batchinsertsuccess" value="*** Inserción múltiple exitosa ***" />
+    <phrase id="batchupdatebegin" value="*** Actualización múltiple iniciada ***" />
+    <phrase id="batchupdaterollback" value="*** Actualización múltiple revertida ***" />
+    <phrase id="batchupdatesuccess" value="*** Actualización múltiple exitosa ***" />
+    <phrase id="buttonactions" value="Acciones disponibles" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Nuevo registro/Modificar" class="icon-addedit ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Maestro/Detalle" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Exportar" class="icon-export ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonlistoptions" value="Opciones" class="icon-options ewIcon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Buscar" class="icon-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancelar" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancelar" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="changepwd" value="Cambiar contraseña" />
+    <phrase id="changepwdpage" value="Cambio de contraseña" />
+    <phrase id="changepwdbtn" value="Guardar cambio de contraseña" />
+    <phrase id="choosefilebtn" value="Examinar..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Seleccione archivo..." />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Seleccione archivos..." />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Por favor haga clic en el reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="closebtn" value="Cerrar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirmar" />
+    <phrase id="confirmbtn" value="Confirmar" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="¿Desea cancelar?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Escriba de nuevo la contraseña" />
+    <phrase id="conflictcancellink" value="Cancelar" />
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="imagen {current} de {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="anterior" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="siguiente" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="cerrar" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="El contenido no se pudo mostrar." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="La imagen no se pudo mostrar." client="1" />
+    <!-- v11 -->
+    <phrase id="copy" value="Duplicar" />
+    <phrase id="copylink" value="Duplicar" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="count" value="Recuento" />
+    <phrase id="countselected" value="%s seleccionados" client="1" />
+    <!-- v12 -->
+    <phrase id="currentpassword" value="Contraseña actual: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="La acción '%s' se ha completado correctamente" />
+    <phrase id="customactioncancelled" value="La acción '%s' ha sido cancelada" />
+    <phrase id="customactionfailed" value="No fué posible completar la acción '%s'" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="La acción '%s' no está permitida" />
+    <!-- v12 -->
+    <phrase id="customview" value="VISTA PERSONALIZADA" />
+    <phrase id="delete" value="Eliminar" />
+    <phrase id="deletebtn" value="Eliminar" />
+    <phrase id="deletecancelled" value="Eliminación cancelada" />
+    <phrase id="deleteconfirmmsg" value="¿Confirma que desea eliminar el registro?" client="1" />
+    <phrase id="deletefilter" value="Eliminar filtro" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="¿Confirma que desea eliminar el filtro %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Eliminar" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deleteselectedlink" value="Eliminar los registros seleccionados" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="deletesuccess" value="Registro eliminado correctamente" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;" />
+    <!-- v11 -->
+    <phrase id="masterdetailcopylink" value="Duplicar Maestro/Detalle" class="icon-md-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Modificar Declaracion Jurada" class="icon-md-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Ver Detalles" class="icon-table ewIcon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Ver De claracion Jurada" class="icon-md-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="dupindex" value="El valor '%v' ya existe en el campo '%f' por favor ingrese un valor distinto" />
+    <phrase id="dupkey" value="Error, clave duplicada: '%f'" />
+    <phrase id="edit" value="Modificar" />
+    <phrase id="editlink" value="Modificar" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Indique el nombre para el filtro" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Indique cual será la nueva contraseña" client="1" />
+    <phrase id="enteroldpassword" value="Indique cual es la contraseña que usa actualmente" client="1" />
+    <phrase id="enterpassword" value="Indique su contraseña" client="1" />
+    <phrase id="enterpwd" value="Indique su contraseña" client="1" />
+    <phrase id="enterrequiredfield" value="El campo %s es obligatorio" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Indique el criterio de búsqueda" />
+    <phrase id="enterusername" value="Indique su nombre de usuario" client="1" />
+    <phrase id="entervalidatecode" value="Escriba el código que se muestra" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Indique el correo electrónico del remitente" client="1" />
+    <phrase id="enterpropersenderemail" value="La direccion ingresada es incorrecta o se intentó exceder el máximo de remitentes permitidos." client="1" />
+    <phrase id="enterrecipientemail" value="Indique el correo del destinatario" client="1" />
+    <phrase id="enterproperrecipientemail" value="La direccion ingresada es incorrecta o se intentó exceder el máximo de destinatarios permitidos." client="1" />
+    <phrase id="enterproperccemail" value="La direccion Cc ingresada es incorrecta o se intentó exceder el máximo de destinatarios Cc permitidos." client="1" />
+    <phrase id="enterproperbccemail" value="La direccion Bcc ingresada es incorrecta o se intentó exceder el máximo de destinatarios Bcc permitidos." client="1" />
+    <phrase id="entersubject" value="Indique el asunto del correo" client="1" />
+    <phrase id="emailformsender" value="De:" />
+    <phrase id="emailformrecipient" value="Para:" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Asunto" />
+    <phrase id="emailformmessage" value="Mensaje" />
+    <phrase id="emailformcontenttype" value="Enviar como" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="enteruid" value="Indique su nombre de usuario" client="1" />
+    <phrase id="entervalidemail" value="Por favor escriba una dirección de correo válida" client="1" />
+    <phrase id="exactphrase" value="Frase exacta" />
+    <phrase id="exceedmaxretry" value="Usted ha excedido el máximo de intentos de inicio de sesión. Por seguridad su cuenta ha sido automáticamente bloqueada. Por favor intente de nuevo en %t minutos." />
+    <phrase id="exceedmaxemailexport" value="Se ha excedido el máximo de intentos para enviar el correo. Por favor intente de nuevo más tarde." />
+    <phrase id="exporttocsv" value="Exportar a CSV" class="icon-csv ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Correo" class="icon-email ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Enviar por correo" client="1" />
+    <phrase id="exporttoexcel" value="Exportar a Excel" class="icon-excel ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Exportar en una página HTML" class="icon-html ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Exportar a PDF" class="icon-pdf ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Exportar a Word" class="icon-word ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Exportar a XML" class="icon-xml ewIcon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtosendmail" value="Falló el intento de envío del correo. " />
+    <phrase id="fieldname" value="Nombre del campo" />
+    <phrase id="fieldrequiredindicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;" />
+    <phrase id="filenotfound" value="Archivo no encontrado" />
+    <!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+    <phrase id="filter" value="Filtro" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Nombre del filtro" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filtros" class="icon-filter ewIcon" />
+    <!-- v12 -->
+    <phrase id="overwritebtn" value="Sobreescribir" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Sobreescribir" />
+    <phrase id="forgotpwd" value="Recuperar contraseña" />
+    <phrase id="goback" value="Volver" />
+    <phrase id="gridaddcancelled" value="Guardado múltiple cancelado" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Insertar nuevos registros" class="icon-grid-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancelar" class="glyphicon glyphicon-remove ewIcon" />
+    <!-- v11 -->
+    <phrase id="grideditcancelled" value="Modificación múltiple cancelada" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Modificación múltiple" class="icon-grid-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Insertar nuevo" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="gridsavelink" value="Guardar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="highlight" value="Resaltar" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Resaltar" class="icon-highlight ewIcon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Inicio" class="glyphicon glyphicon-home ewIcon" />
+    <!-- v11 -->
+    <phrase id="incorrectcreditcard" value="Número de tarjeta inválido" />
+    <phrase id="incorrectdate" value="Fecha incorrecta (%s)" />
+    <phrase id="incorrectdateymd" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: aaaa%smm%sdd" />
+    <phrase id="incorrectdatemdy" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: mm%sdd%saaaa" />
+    <phrase id="incorrectdatedmy" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: dd%smm%saaaa" />
+    <phrase id="incorrectshortdateymd" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: aa%smm%sdd" />
+    <phrase id="incorrectshortdatemdy" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: mm%sdd%saa" />
+    <phrase id="incorrectshortdatedmy" value="Fecha incorrecta, la fecha debe escribirse en el siguiente formato: dd%smm%saa" />
+    <phrase id="incorrectemail" value="Correo electrónico incorrecto" client="1" />
+    <phrase id="incorrectfield" value="Campo incorrecto" client="1" />
+    <phrase id="incorrectfloat" value="Número decimal incorrecto" client="1" />
+    <phrase id="incorrectguid" value="GUID Incorrecto" client="1" />
+    <phrase id="incorrectinteger" value="Número entero incorrecto" client="1" />
+    <phrase id="incorrectphone" value="Número telefónico incorrecto" client="1" />
+    <phrase id="incorrectregexp" value="El campo no coincide con el formato requerido" client="1" />
+    <phrase id="incorrectrange" value="El número debe estar en el rango entre %1 y %2" client="1" />
+    <phrase id="incorrectssn" value="Número de seguro social incorrecto" client="1" />
+    <phrase id="incorrecttime" value="Hora incorrecta, debe escribirse en el siguiente formato: hh%smm%sss" />
+    <phrase id="incorrectzip" value="Código postal incorrecto" client="1" />
+    <phrase id="inlineaddlink" value="Nuevo registro (en renglón)" class="icon-inline-add ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Duplicar (en renglón)" class="icon-inline-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Modificar (en renglón)" class="icon-inline-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Inserción cancelada" />
+    <phrase id="insertfailed" value="Ocurrió un error en la inserción" client="1" />
+    <phrase id="insertlink" value="Insertar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="insertsuccess" value="Inserción completada correctamente" />
+    <phrase id="invalidemail" value="Correo electrónico inválido" />
+    <phrase id="invalidfield" value="Campo inválido" />
+    <phrase id="invalidkeyvalue" value="Valor inválido en la clave principal" />
+    <phrase id="invalidrecord" value="¡Registro inválido! No se especificó la clave principal" client="1" />
+    <phrase id="invalidpostrequest" value="La Sesión ha caducado, por favor intente de nuevo. &lt;a href='javascript:window.history.back()'&gt;Volver&lt;/a&gt; " />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Parámetro inválido" />
+    <phrase id="invalidpassword" value="Contraseña inválida" />
+    <phrase id="invalidnewpassword" value="Contraseña nueva inválida" />
+    <phrase id="invaliduidpwd" value="Usuario o contraseña incorrectos" />
+    <phrase id="keep" value="Mantener" />
+    <phrase id="language" value="Lenguaje" />
+    <phrase id="listactionbutton" value="Acciones disponibles" class="icon-user ewIcon" />
+    <!-- v12 -->
+    <phrase id="loading" value="Cargando..." client="1" />
+    <phrase id="login" value="Iniciar Sesión" />
+    <phrase id="logincancelled" value="Inicio de sesión cancelado" />
+    <phrase id="loginoptions" value="Opciones" />
+    <!-- v11 -->
+    <phrase id="loginpage" value="Iniciar Sesión" />
+    <phrase id="logout" value="Cerrar Sesión" />
+    <phrase id="lookuplink" value="Buscar - %s" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v2017 -->
+    <phrase id="masterrecord" value="Registro maestro: " />
+    <phrase id="maxfilesize" value="Error, el archivo seleccionado excede el tamaño máximo: %s bytes." client="1" />
+    <phrase id="messageok" value="Aceptar" client="1" />
+    <phrase id="midnight" value="medianoche" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="La contraseña nueva y la confirmación de la contraseña no coinciden" client="1" />
+    <phrase id="missinglookuptablename" value="No existe el nombre de la tabla de búsqueda" />
+    <phrase id="missingdisplayfieldname" value="No existe el nombre del campo que contiene el nombre o la descripción." />
+    <phrase id="missingdisplayfieldvalue" value="No existe el nombre del valor que contiene el nombre o la descripción." />
+    <phrase id="missinguserlevelid" value="No existe el identificador del perfil o rol del usuario." />
+    <phrase id="missinguserlevelname" value="No existe el nombre del perfil o rol del usuario." />
+    <phrase id="mobilemenu" value="Menú" />
+    <phrase id="multiplemasterdetails" value="Maestro/Detalle" class="icon-master-detail ewIcon" />
+    <!-- v11 -->
+    <phrase id="new" value="Nuevo" />
+    <phrase id="newpassword" value="Nueva contraseña" />
+    <phrase id="newvalue" value="Nuevo valor" />
+    <!-- v12 -->
+    <phrase id="next" value="Siguiente" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No hay registros para agregar" client="1" />
+    <phrase id="nofieldselected" value="No se ha seleccionado campo que se desea actualizar" client="1" />
+    <phrase id="nopermission" value="Usted no cuenta con los permisos necesarios para acceder a: %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="Usted no cuenta con los permisos necesarios para guardar el registro." />
+    <phrase id="nodeletepermission" value="Usted no cuenta con los permisos necesarios para eliminar el registro." />
+    <phrase id="noeditpermission" value="Usted no cuenta con los permisos necesarios para modificar el registro." />
+    <phrase id="noon" value="tarde" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No se encontraron registros" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No existe un registro que tenga la clave principal = " />
+    <phrase id="norecordselected" value="No hay registros seleccionados" client="1" />
+    <phrase id="notablegenerated" value="No se generaron tablas" />
+    <phrase id="nouserlevel" value="No existen permisos establecidos para los perfiles o roles de usuario." />
+    <phrase id="of" value="de" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="Anterior" />
+    <phrase id="oldpassword" value="Contraseña anterior" />
+    <phrase id="optionalreadyexist" value="Ya existe la opción" />
+    <phrase id="page" value="Página" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="Primera" />
+    <phrase id="pagerlast" value="Última" />
+    <phrase id="pagernext" value="Siguiente" />
+    <phrase id="pagerprevious" value="Anterior" />
+    <phrase id="password" value="Contraseña" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Solicitar su contraseña" />
+    <phrase id="passwordchanged" value="Contraseña cambiada correctamente" />
+    <phrase id="passwordexpired" value="Su contraseña ha expirado. Por favor, cámbiela por una nueva." />
+    <phrase id="passwordstrength" value="Fortaleza de la contraseña: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Error, su contraseña es demasiado simple, para una mayor seguridad elija una contraseña que contenga al menos 8 caracteres y contenga al menos letras mayúsculas, minúsculas y números." client="1" />
+    <!-- v12 -->
+    <phrase id="generatepassword" value="Generar contraseña automáticamente" class="glyphicon glyphicon-flash ewIcon" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permisos" class="icon-user ewIcon" />
+    <!-- v11 -->
+    <phrase id="permissionaddcopy" value="Crear nuevos Registros/Duplicar" />
+    <phrase id="permissiondelete" value="Eliminar" />
+    <phrase id="permissionedit" value="Modificar" />
+    <phrase id="permissionlistsearchview" value="Listar/Buscar/Ver" />
+    <phrase id="permissionlist" value="Listar" />
+    <phrase id="permissionsearch" value="Buscar" />
+    <phrase id="permissionview" value="Ver" />
+    <phrase id="pickdate" value="Seleccione una fecha" />
+    <phrase id="pleaseselect" value="(Seleccione una opción)" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Espere por favor..." client="1" />
+    <phrase id="primarykeyunspecified" value="Clave principal no especificada" />
+    <phrase id="printerfriendly" value="Diseño de impresión" class="icon-print ewIcon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Diseño de impresión" />
+    <phrase id="prev" value="Anterior" client="1" />
+    <!-- v12 -->
+    <phrase id="pwdemailsent" value="La contraseña ha sido enviada al correo electrónico especificado" />
+    <phrase id="resetpwdemailsent" value="Se le ha enviado un correo electrónico para reestablecer su contraseña" />
+    <phrase id="quicksearch" value="Búsqueda rápida" />
+    <phrase id="quicksearchbtn" value="Buscar" />
+    <phrase id="quicksearchauto" value="Automático" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="Todas las palabras" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="Todo" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Que cualquier palabra coincida" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Cualquiera" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Coincidencia exacta" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exactamente" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Registros" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="El registro ha sido modificado simultáneamente por otro usuario. Haga clic en [Reload] para mostrar lo que capturó el otro usuario (los datos que usted capturó se perderán) o haga clic en [Overwrite] para sobreescribir los datos del otro usuario con los que usted capturó." />
+    <phrase id="recorddeleted" value="registro(s) eliminado(s)" />
+    <phrase id="recordinserted" value="registro(s) guardados" />
+    <phrase id="recordupdated" value="registro(s) actualizados" />
+    <phrase id="recordsperpage" value="registros por página" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Registrarse" />
+    <phrase id="registerbtn" value="Enviar solicitud de registro" />
+    <phrase id="registersuccess" value="Solicitud de registro enviada correctamente" />
+    <phrase id="registersuccessactivate" value="Solicitud de registro enviada correctamente. Adicionalmente se ha enviado un mensaje a su dirección de correo electrónico, por favor haga clic en el vínculo que se encuentra dentro de dicho mensaje para que su cuenta sea activada y pueda iniciar sesión." />
+    <phrase id="registerpage" value="Solicitud de Registro" />
+    <phrase id="relatedrecordrequired" value="No se puede agregar o actualizar el registro porque se ha perdido la relación con la tabla: '%t'" />
+    <phrase id="relatedrecordexists" value="No es posible eliminar el registro porque tiene información relacionada en la tabla: '%t'" />
+    <phrase id="reloadbtn" value="Actualizar" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Actualizar" />
+    <phrase id="rememberme" value="Recordar mis datos en este dispositivo" />
+    <phrase id="remove" value="Eliminar" />
+    <phrase id="replace" value="Reemplazar" />
+    <phrase id="report" value="Reporte" />
+    <phrase id="requestpwdpage" value="Solicitar contraseña" />
+    <phrase id="reset" value="Restablecer" />
+    <phrase id="resendregisteremailbtn" value="Enviar correo de registro" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="El correo de registro del usuario '%u' ha sido enviado correctamente" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Ha ocurrido un error al intentar enviar el correo de registro del usuario '%u' " />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserbtn" value="Restablecer sesión concurrente para este usuario" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Sesión del usuario '%u' restablecida correctamente" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Ocurrió un error al intentar restablecer la sesión del usuario '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Restablecer intentos de inicio de sesión" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Intentos de inicio de sesión del usuario '%u' restablecidos correctamente" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Ocurrió un error al intentar restablecer los intentos de inicio de sesión del usuario '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Restablecer" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Restablecer" />
+    <phrase id="rptavg" value="Promedio" />
+    <phrase id="rptdtlrec" value="Detalle de registros" />
+    <phrase id="rptgrandtotal" value="Gran Total" />
+    <phrase id="rptmax" value="Máximo" />
+    <phrase id="rptmin" value="Mínimo" />
+    <phrase id="rptsum" value="Suma" />
+    <phrase id="rptsumhead" value="Resumen de" />
+    <phrase id="savebtn" value="Guardar" />
+    <!-- v11 -->
+    <phrase id="savecurrentfilter" value="Guardar el filtro actual" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Guardar mi nombre de usuario" />
+    <phrase id="search" value="Búsqueda" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Buscar" class="glyphicon glyphicon-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="searchpanel" value="Panel de Búsqueda" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Seleccionar" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Enviar correo" />
+    <phrase id="sendemailsuccess" value="Correo enviado exitosamente" client="1" />
+    <phrase id="sendpwd" value="Enviar contraseña" />
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="Ocurrió un error al intentar comunicarse con el servidor." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Su sesión se cerrará automáticamente en %s segundos. Haga clic en OK para mantener iniciada la sesión." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Su sesión ha caducado, es necesario que vuelva a iniciar sesión." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Establecer que la contraseña ha caducado" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="La contraseña del usuario '%u' ha sido marcada como caduca correctamente" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Ocurrió un error al intentar marcar como caduca la contraseña del usuario '%u'" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Quitar filtro de búsqueda" class="icon-reset-search ewIcon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Quitar filtro de búsqueda" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="table" value="TABLA" />
+    <phrase id="tbltypetable" value="Tabla: " />
+    <phrase id="tbltypeview" value="Vista: " />
+    <phrase id="tbltypecustomview" value="Vista personalizada: " />
+    <phrase id="tbltypereport" value="Reporte: " />
+    <phrase id="to" value="a" />
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="El usuario actual (%c) no esta autorizado para asignar el ID de usuario (%u)." />
+    <phrase id="unauthorizedparentuserid" value="El usuario actual (%c) no está autorizado para asignar el ID de usuario superior (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="El usuario actual (%c) no está autorizado para insertar el registro. El filtro maestro es: %f" />
+    <phrase id="update" value="Actualizar" />
+    <phrase id="updatebtn" value="Guardar cambios" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Actualización Cancelada" />
+    <phrase id="updatefailed" value="Actualización erronea" />
+    <phrase id="updatelink" value="Actualizar" class="glyphicon glyphicon-ok ewIcon" />
+    <!-- v11 -->
+    <phrase id="updateselectall" value="Actualizar todo" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Modificar registros seleccionados" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Cambios guardados correctamente" />
+    <phrase id="uploading" value="Subiendo archivo..." client="1" />
+    <phrase id="uploadstart" value="Iniciando..." client="1" />
+    <phrase id="uploadcancel" value="Cancelar" client="1" />
+    <phrase id="uploaddelete" value="Eliminar archivo subido" client="1" />
+    <phrase id="uploadoverwrite" value="¿Desea sobreescribir el archivo anterior?" client="1" />
+    <phrase id="uploaderrmsg1" value="Error, el archivo que intenta subir excede el tamaño máximo permitido (upload_max_filesize en php.ini)" />
+    <phrase id="uploaderrmsg2" value="Error, el archivo que intenta subir excede el tamaño máximo permitido del campo del formulario." />
+    <phrase id="uploaderrmsg3" value="Error, el archivo no se terminó de subir completo" />
+    <phrase id="uploaderrmsg4" value="Error, no se subió ningún archivo" />
+    <phrase id="uploaderrmsg6" value="Error, no se encuentra el directorio temporal para subir archivos" />
+    <phrase id="uploaderrmsg7" value="Error, no se pudo escribir (guardar) el archivo en el servidor" />
+    <phrase id="uploaderrmsg8" value="Error, la subida del archivo fué interrumpida por una extensión PHP." />
+    <phrase id="uploaderrmsgpostmaxsize" value="Error, el archivo que intenta subir excede el tamaño máximo permitido (post_max_size en php.ini)" />
+    <phrase id="uploaderrmsgmaxfilesize" value="Error, el archivo es demasiado grande" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="Error, el archivo es demasiado pequeño" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="Error, tipo de archivo no permitido" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Error, se excedió el número máximo de archivos permitidos" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Error, la imagen que intenta subir sobrepasa el ancho máximo permitido" />
+    <phrase id="uploaderrmsgminwidth" value="Error, la imagen que intenta subir debe cumplir con el ancho mínimo requerido" />
+    <phrase id="uploaderrmsgmaxheight" value="Error, la imagen que intenta subir sobrepasa la altura máxima permitida" />
+    <phrase id="uploaderrmsgminheight" value="Error, la imagen que intenta subir debe cumplir con la altura mínima requerida" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Error, los nombres de archivo que intenta subir sobrepasan el máximo permitido por el campo. Por favor reduzca el tamaño de los nombres de archivo e intente de nuevo." client="1" />
+    <phrase id="useradministrator" value="Administrador" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anónimo" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="Error, el usuario ya existe" />
+    <phrase id="userlevel" value="Perfil de usuario: " />
+    <phrase id="userleveladministratorname" value="El nombre del perfil de usuario -1 debe ser 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="El nombre del perfil de usuario -2 debe ser 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="Permisos por perfil de usuario" />
+    <phrase id="userlevelidinteger" value="El ID de perfil debe ser un número entero" client="1" />
+    <phrase id="userleveldefaultname" value="El nombre del perfil de usuario 0 debe ser 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="El ID de perfil debe ser mayor a 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="El nombre del perfil de usuario no puede ser 'Administrator' ni tampoco 'Default'" client="1" />
+    <phrase id="userloggedin" value="El usuario '%u' ya ha iniciado sesión" />
+    <phrase id="username" value="Usuario" />
+    <phrase id="userprofilecorrupted" value="Error, la información de inicio de sesión (User profile) está corrupta. Por favor cierre sesión e inicie sesión de nuevo." />
+    <phrase id="valuenotexist" value="El valor no existe" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="Ver" />
+    <phrase id="viewimagegallery" value="Ver imagen" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="Ver" class="icon-view ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Nuevo Registro" class="glyphicon glyphicon-plus ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagecopylink" value="Duplicar" class="icon-copy ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Eliminar" class="glyphicon glyphicon-trash ewIcon" />
+    <!-- v11 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Modificar" class="icon-edit ewIcon" />
+    <!-- v11 -->
+    <phrase id="wrongfiletype" value="Error, el archivo que intenta subir es de un tipo de archivo no permitido." client="1" />
+    <phrase id="tableorview" value="Tablas" />
+    <phrase id="=" value=" sea igual a " />
+    <!-- v12 -->
+    <phrase id="equal" value=" sea igual a " />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value=" sea distinto de " />
+    <phrase id="&lt;" value=" sea menor que " />
+    <phrase id="&lt;=" value=" sea menor o igual a " />
+    <phrase id="&gt;" value=" sea mayor que " />
+    <phrase id="&gt;=" value=" sea mayor o igual a " />
+    <phrase id="like" value=" contenga " />
+    <phrase id="not like" value=" no contenga " />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value=" empiece con " />
+    <phrase id="ends with" value=" termine en " />
+    <phrase id="is null" value=" sea vacío " />
+    <phrase id="is not null" value=" no sea vacío " />
+    <phrase id="between" value=" se encuentre entre " />
+    <phrase id="and" value=" y " />
+    <phrase id="or" value=" o " />
+    <phrase id="am" value="AM" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" />
+    <!-- v2017 -->
+  </global>
+  <project>
+    <phrase id="bodytitle" value="DECLARACION JURADA  DE  INCOMPATIBILIDADES" />
+    <phrase id="footertext" value="&amp;copy;2016 e.World Technology Ltd. All rights reserved." />
+    <menu id="159">
+      <phrase id="menutext" value="t fiscalias" />
+    </menu>
+    <menu id="96">
+      <phrase id="menutext" value="s consanguineo" />
+    </menu>
+    <menu id="97">
+      <phrase id="menutext" value="s afinidad" />
+    </menu>
+    <menu id="98">
+      <phrase id="menutext" value="s adopcion" />
+    </menu>
+    <menu id="99">
+      <phrase id="menutext" value="s parentesco global" />
+    </menu>
+    <menu id="95">
+      <phrase id="menutext" value="PARENTESCO" />
+    </menu>
+    <menu id="93">
+      <phrase id="menutext" value="seleccion cargos" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="UNIDADES DEPENDIENTES" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="CARGOS" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="DECLARACION JURADA" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Formulario" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="PARTE II : DATOS DEL CONYUGUE O CONVIVIENTE" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="PARTE III: RELACIONES DE PARENTESCO POR CONSANGUINIDAD:   HIJOS, PADRES, HERMANOS Y ABUELOS (Registrar a los parientes con vida)" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="PARTE IV: RELACIONES DE PARENTESCO POR AFINIDAD" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="PARTE V: RELACIONES POR ADOPCION: HIJOS EN ADOPCION , PADRES ADOPTANTES/ PADRASTROS (registrar a los que se encuentran vivos)" />
+    </menu>
+    <menu id="158">
+      <phrase id="menutext" value="PARTE VI: PARIENTES QUE TRABAJAN  EN EL MINISTERIO PUBLICO" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="Detalle de Parientes en el Ministerio Publico" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="PARTE VII: ACTIVIDADES Y PERCEPCIONES ECONOMICAS" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Declare si el salario mensual que Ud. percibe supera el establecido para el Presidente del EStado Plurinacional de Bolvia (Tomar en ciuenta el salario que percibe en el Ministerio Público y fuera del Ministerio Píublico)" />
+    </menu>
+    <menu id="133">
+      <phrase id="menutext" value="Reporte" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="ADMINISTRACION" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Usuarios" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Niveles" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="userlevelpermissions" />
+    </menu>
+    <menu id="39">
+      <phrase id="menutext" value="Bitacora" />
+    </menu>
+    <menu id="67">
+      <phrase id="menutext" value="SISTEMA" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="Unidades - Cargos" />
+    </menu>
+    <menu id="94">
+      <phrase id="menutext" value="Grados - Parentesco" />
+    </menu>
+    <menu id="38">
+      <phrase id="menutext" value="CONSULTAS" />
+    </menu>
+    <menu id="134">
+      <phrase id="menutext" value="Declaraciones" />
+    </menu>
+    <menu id="68">
+      <phrase id="menutext" value="Conyugue" />
+    </menu>
+    <menu id="40">
+      <phrase id="menutext" value="Consanguineos" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="Afinidad" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="Parientes MP" />
+    </menu>
+    <menu id="157">
+      <phrase id="menutext" value="Incompatibilidad" />
+    </menu>
+    <menu id="156">
+      <phrase id="menutext" value="DENUNCIAS " />
+    </menu>
+    <menu id="136">
+      <phrase id="menutext" value=" Registrar Denuncia" />
+    </menu>
+    <menu id="160">
+      <phrase id="menutext" value="Consulta Denuncias" />
+    </menu>
+    <menu id="92">
+      <phrase id="menutext" value="AYUDA" />
+    </menu>
+    <menu id="130">
+      <phrase id="menutext" value="Manual" />
+    </menu>
+    <menu id="131">
+      <phrase id="menutext" value="Reglamento" />
+    </menu>
+    <table id="t_actiividades_remuneradas">
+      <phrase id="tblcaption" value="PARTE VII :ACTIVIDADES Y PERCEPCIONES ECONOMICAS" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="tipo_actividad">
+        <phrase id="fldcaption" value="Tipo Actividad" />
+      </field>
+      <field id="actividad_si">
+        <phrase id="fldtagvalue1" value="Y" />
+        <phrase id="fldtagcaption1" value="SI" />
+        <phrase id="fldcaption" value="SI" />
+      </field>
+      <field id="actividad_no">
+        <phrase id="fldtagvalue1" value="X" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldcaption" value="NO" /> />
+      </field>
+      <field id="entidad">
+        <phrase id="fldcaption" value="Entidad" />
+      </field>
+      <field id="sector">
+        <phrase id="fldcaption" value="Sector" />
+        <phrase id="fldtagvalue1" value="PIUBLICO" />
+        <phrase id="fldtagcaption1" value="PUBLICO" />
+        <phrase id="fldtagvalue2" value="PRIVADO" />
+        <phrase id="fldtagcaption2" value="PRIVADO" />
+      </field>
+      <field id="remunerada">
+        <phrase id="fldcaption" value="Remunerada" />
+        <phrase id="fldtagvalue1" value="SI" />
+        <phrase id="fldtagcaption1" value="SI" />
+        <phrase id="fldtagvalue2" value="NO" />
+        <phrase id="fldtagcaption2" value="NO" />
+      </field>
+    </table>
+    <table id="t_conyugue">
+      <phrase id="tblcaption" value="PARTE II: DATOS DEL CONYUGUE O CONVIVIENTE" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+        <phrase id="fldtagvalue1" value="LP" />
+        <phrase id="fldtagcaption1" value="LP" />
+        <phrase id="fldtagvalue2" value="OR" />
+        <phrase id="fldtagcaption2" value="OR" />
+        <phrase id="fldtagvalue3" value="PT" />
+        <phrase id="fldtagcaption3" value="PT" />
+        <phrase id="fldtagvalue4" value="SR" />
+        <phrase id="fldtagcaption4" value="SR" />
+        <phrase id="fldtagvalue5" value="CB" />
+        <phrase id="fldtagcaption5" value="CB" />
+        <phrase id="fldtagvalue6" value="TJ" />
+        <phrase id="fldtagcaption6" value="TJ" />
+        <phrase id="fldtagvalue7" value="SC" />
+        <phrase id="fldtagcaption7" value="SC" />
+        <phrase id="fldtagvalue8" value="BE" />
+        <phrase id="fldtagcaption8" value="BE" />
+        <phrase id="fldtagvalue9" value="PA" />
+        <phrase id="fldtagcaption9" value="PA" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="direccion">
+        <phrase id="fldcaption" value="Direccion" />
+      </field>
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+    </table>
+    <table id="t_funcionario">
+      <phrase id="tblcaption" value="PARTE I: INFORMACION BASICA DEL FUNCIONARIO" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="fecha_nacimiento">
+        <phrase id="fldcaption" value="Fecha Nacimiento" />
+      </field>
+      <field id="estado_civil">
+        <phrase id="fldcaption" value="Estado Civil" />
+        <phrase id="fldtagvalue1" value="SOLTERO" />
+        <phrase id="fldtagcaption1" value="SOLTERO" />
+        <phrase id="fldtagvalue2" value="CASADO" />
+        <phrase id="fldtagcaption2" value="CASADO" />
+        <phrase id="fldtagvalue3" value="VIUDO" />
+        <phrase id="fldtagcaption3" value="VIUDO" />
+        <phrase id="fldtagvalue4" value="DIVORCIADO" />
+        <phrase id="fldtagcaption4" value="DIVORCIADO" />
+        <phrase id="fldtagvalue5" value="CONVIVIENTE" />
+        <phrase id="fldtagcaption5" value="CONVIVIENTE" />
+      </field>
+      <field id="direccion">
+        <phrase id="fldcaption" value="Direccion" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="fecha_registro">
+        <phrase id="fldcaption" value="Fecha registro" />
+      </field>
+    </table>
+    <table id="t_pa_afinidad">
+      <phrase id="tblcaption" value="PARTE IV : RELACIONES DE PARENTESCO POR AFINIDAD:  SUEGROS CUÑADOS, HIJOS POLITICOS (registrar a los parientes con vida)" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="grado_parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+        <phrase id="fldtagvalue1" value="SUEGRO/A" />
+        <phrase id="fldtagcaption1" value="SUEGRO/A" />
+        <phrase id="fldtagvalue2" value="CUÑADO/A" />
+        <phrase id="fldtagcaption2" value="CUÑADO/A" />
+        <phrase id="fldtagvalue3" value="YERNO/A" />
+        <phrase id="fldtagcaption3" value="YERNO/A" />
+      </field>
+    </table>
+    <table id="t_pa_consanguinidad">
+      <phrase id="tblcaption" value="PARTE III: RELACIONES DE PARENTESCO POR CONSANGUINIDAD:   HIJOS, PADRES, HERMANOS Y ABUELOS (Registrar a los parientes con vida)" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+        <phrase id="fldtagvalue1" value="HIJO/A" />
+        <phrase id="fldtagcaption1" value="HIJO/A" />
+        <phrase id="fldtagvalue2" value="PADRE" />
+        <phrase id="fldtagcaption2" value="PADRE" />
+        <phrase id="fldtagvalue3" value="HERMANO/A" />
+        <phrase id="fldtagcaption3" value="HERMANO/A" />
+        <phrase id="fldtagvalue4" value="ABUELO/A" />
+        <phrase id="fldtagcaption4" value="ABUELO/A" />
+        <phrase id="fldtagvalue5" value="MADRE" />
+        <phrase id="fldtagcaption5" value="MADRE" />
+      </field>
+    </table>
+    <table id="t_parientes_mp">
+      <phrase id="tblcaption" value="Detallar los parientes hasta el cuarto grado de consaguinidad y segundo grado de afinidad que trabajan en el Ministerio Público" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="grado_parentesco">
+        <phrase id="fldcaption" value="Grado Parentesco" />
+        <phrase id="fldtagvalue1" value="AFINIDAD" />
+        <phrase id="fldtagcaption1" value="AFINIDAD" />
+        <phrase id="fldtagvalue2" value="CONSANGUINIDAD" />
+        <phrase id="fldtagcaption2" value="CONSANGUINIDAD" />
+        <phrase id="fldtagvalue3" value="ADOPCION" />
+        <phrase id="fldtagcaption3" value="ADOPCION" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+    </table>
+    <table id="t_re_adopcion">
+      <phrase id="tblcaption" value="PARTE V: RELACIONES POR ADOPCION: HIJOS EN ADOPCION , PADRES ADOPTANTES/ PADRASTROS (registrar a los que se encuentran vivos)" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+        <phrase id="fldtagvalue1" value="HIJO/A ADOPCION" />
+        <phrase id="fldtagcaption1" value="HIJO/A ADOPCION" />
+        <phrase id="fldtagvalue2" value="PADRE ADOPCION" />
+        <phrase id="fldtagcaption2" value="PADRE ADOPCION" />
+        <phrase id="fldtagvalue3" value="MADRE ADOPCION" />
+        <phrase id="fldtagcaption3" value="MADRE ADOPCION" />
+      </field>
+    </table>
+    <table id="t_salario">
+      <phrase id="tblcaption" value="Declare si el salario mensual que Ud. percibe supera el establecido para el Presidente del EStado Plurinacional de Bolvia (Tomar en ciuenta el salario que percibe en el Ministerio Público y fuera del Ministerio Píublico)" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="salario_mayor_si">
+        <phrase id="fldtagvalue1" value="X" />
+        <phrase id="fldtagcaption1" value="SI" />
+       <phrase id="fldcaption" value="SI" />
+      </field>
+      <field id="salario_mayor_no">
+        <phrase id="fldtagvalue1" value="X" />
+        <phrase id="fldtagcaption1" value="NO" />
+      <phrase id="fldcaption" value="NO" />
+      </field>
+    </table>
+    <table id="t_usuario">
+      <phrase id="tblcaption" value="Usuarios" />
+      <field id="codigo_usuario">
+        <phrase id="fldcaption" value="Cedula Identidad" />
+      </field>
+      <field id="exp">
+        <phrase id="fldcaption" value="Expedido" />
+        <phrase id="fldtagvalue1" value="LP" />
+        <phrase id="fldtagcaption1" value="LP" />
+        <phrase id="fldtagvalue2" value="OR" />
+        <phrase id="fldtagcaption2" value="OR" />
+        <phrase id="fldtagvalue3" value="PT" />
+        <phrase id="fldtagcaption3" value="PT" />
+        <phrase id="fldtagvalue4" value="CH" />
+        <phrase id="fldtagcaption4" value="CH" />
+        <phrase id="fldtagvalue5" value="TJ" />
+        <phrase id="fldtagcaption5" value="TJ" />
+        <phrase id="fldtagvalue6" value="CB" />
+        <phrase id="fldtagcaption6" value="CB" />
+        <phrase id="fldtagvalue7" value="SC" />
+        <phrase id="fldtagcaption7" value="SC" />
+        <phrase id="fldtagvalue8" value="BN" />
+        <phrase id="fldtagcaption8" value="BN" />
+        <phrase id="fldtagvalue9" value="PA" />
+        <phrase id="fldtagcaption9" value="PA" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="usuario">
+        <phrase id="fldcaption" value="Usuario" />
+      </field>
+      <field id="clave">
+        <phrase id="fldcaption" value="Clave" />
+      </field>
+      <field id="nivel_id">
+        <phrase id="fldcaption" value="Nivel id" />
+        <phrase id="fldtagvalue1" value="-2" />
+        <phrase id="fldtagcaption1" value="Anonymous" />
+        <phrase id="fldtagvalue2" value="-1" />
+        <phrase id="fldtagcaption2" value="Administrator" />
+        <phrase id="fldtagvalue3" value="0" />
+        <phrase id="fldtagcaption3" value="Default" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="email" />
+      </field>
+      <field id="activado">
+        <phrase id="fldcaption" value="Activado" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="userlevelpermissions" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="tablename" />
+      </field>
+      <field id="permission">
+        <phrase id="fldcaption" value="permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="Niveles" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="userlevelname" />
+        <phrase id="fldtagvalue1" value="SOLTERO" />
+        <phrase id="fldtagcaption1" value="SOLTERO" />
+        <phrase id="fldtagvalue2" value="CASADO" />
+        <phrase id="fldtagcaption2" value="CASADO" />
+        <phrase id="fldtagvalue3" value="VIUDO" />
+        <phrase id="fldtagcaption3" value="VIUDO" />
+        <phrase id="fldtagvalue4" value="DIVORCIADO" />
+        <phrase id="fldtagcaption4" value="DIVORCIADO" />
+      </field>
+    </table>
+    <table id="audittrail2">
+      <phrase id="tblcaption" value="audittrail" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="script">
+        <phrase id="fldcaption" value="script" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="user" />
+      </field>
+      <field id="action">
+        <phrase id="fldcaption" value="action" />
+      </field>
+      <field id="_table">
+        <phrase id="fldcaption" value="table" />
+      </field>
+      <field id="_field">
+        <phrase id="fldcaption" value="field" />
+      </field>
+      <field id="keyvalue">
+        <phrase id="fldcaption" value="keyvalue" />
+      </field>
+      <field id="oldvalue">
+        <phrase id="fldcaption" value="oldvalue" />
+      </field>
+      <field id="newvalue">
+        <phrase id="fldcaption" value="newvalue" />
+      </field>
+    </table>
+    <table id="consanguineos">
+      <phrase id="tblcaption" value="Consanguineos" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="nombres1">
+        <phrase id="fldcaption" value="Nombres 1" />
+      </field>
+      <field id="apellido_paterno1">
+        <phrase id="fldcaption" value="Apellido Paterno 1" />
+      </field>
+      <field id="apellido_materno1">
+        <phrase id="fldcaption" value="Apellido Materno 1" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres(Familiar)" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno(Familiar)" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno (Familiar)" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+        <phrase id="fldtagvalue1" value="HIJO/A" />
+        <phrase id="fldtagcaption1" value="HIJO/A" />
+        <phrase id="fldtagvalue2" value="PADRE" />
+        <phrase id="fldtagcaption2" value="PADRE" />
+        <phrase id="fldtagvalue3" value="HERMANO/A" />
+        <phrase id="fldtagcaption3" value="HERMANO/A" />
+        <phrase id="fldtagvalue4" value="ABUELO/A" />
+        <phrase id="fldtagcaption4" value="ABUELO/A" />
+        <phrase id="fldtagvalue5" value="MADRE" />
+        <phrase id="fldtagcaption5" value="MADRE" />
+      </field>
+    </table>
+    <table id="afinidad">
+      <phrase id="tblcaption" value="Afinidad" />
+      <field id="nombre">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="grado_parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+        <phrase id="fldtagvalue1" value="SUEGRO/A" />
+        <phrase id="fldtagcaption1" value="SUEGRO/A" />
+        <phrase id="fldtagvalue2" value="CUÑADO/A" />
+        <phrase id="fldtagcaption2" value="CUÑADO/A" />
+        <phrase id="fldtagvalue3" value="YERNO/A" />
+        <phrase id="fldtagcaption3" value="YERNO/A" />
+      </field>
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="apellido_paterno1">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno1">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+    </table>
+    <table id="parientes">
+      <phrase id="tblcaption" value="Parientes MP" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="nombres1">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="apellido_paterno1">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno1">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="grado_parentesco">
+        <phrase id="fldcaption" value="Grado Parentesco" />
+        <phrase id="fldtagvalue1" value="AFINIDAD" />
+        <phrase id="fldtagcaption1" value="AFINIDAD" />
+        <phrase id="fldtagvalue2" value="CONSANGUINIDAD" />
+        <phrase id="fldtagcaption2" value="CONSANGUINIDAD" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="unidad_organizacional1">
+        <phrase id="fldcaption" value="Unidad Organizacional 1" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+    </table>
+    <table id="t_cargos">
+      <phrase id="tblcaption" value="CARGOS" />
+      <field id="id_cargo">
+        <phrase id="fldcaption" value="Id Cargo" />
+      </field>
+      <field id="id_unidad">
+        <phrase id="fldcaption" value="Id Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="obs">
+        <phrase id="fldcaption" value="Obs" />
+      </field>
+    </table>
+    <table id="t_unidad">
+      <phrase id="tblcaption" value="UNIDADES DEPENDIENTES" />
+      <field id="id_unidad">
+        <phrase id="fldcaption" value="Id Unidad" />
+      </field>
+      <field id="id_unidad_org">
+        <phrase id="fldcaption" value="Id Unidad Org" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+    </table>
+    <table id="t_unidad_organizacional">
+      <phrase id="tblcaption" value="UNIDAD ORGANIZACIONAL" />
+      <field id="id_unidad_org">
+        <phrase id="fldcaption" value="Id Unidad Org" />
+      </field>
+      <field id="fiscalia">
+        <phrase id="fldcaption" value="Fiscalia" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+    </table>
+    <table id="conyugue">
+      <phrase id="tblcaption" value="CONSULTA DE CONYUGUE" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="telefono">
+        <phrase id="fldcaption" value="Telefono" />
+      </field>
+      <field id="celular">
+        <phrase id="fldcaption" value="Celular" />
+      </field>
+      <field id="direccion">
+        <phrase id="fldcaption" value="Direccion" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="ci_run1">
+        <phrase id="fldcaption" value="CI RUN ( Conyugue)" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+        <phrase id="fldtagvalue1" value="LP" />
+        <phrase id="fldtagcaption1" value="LP" />
+        <phrase id="fldtagvalue2" value="OR" />
+        <phrase id="fldtagcaption2" value="OR" />
+        <phrase id="fldtagvalue3" value="PT" />
+        <phrase id="fldtagcaption3" value="PT" />
+        <phrase id="fldtagvalue4" value="SR" />
+        <phrase id="fldtagcaption4" value="SR" />
+        <phrase id="fldtagvalue5" value="CB" />
+        <phrase id="fldtagcaption5" value="CB" />
+        <phrase id="fldtagvalue6" value="TJ" />
+        <phrase id="fldtagcaption6" value="TJ" />
+        <phrase id="fldtagvalue7" value="SC" />
+        <phrase id="fldtagcaption7" value="SC" />
+        <phrase id="fldtagvalue8" value="BE" />
+        <phrase id="fldtagcaption8" value="BE" />
+        <phrase id="fldtagvalue9" value="PA" />
+        <phrase id="fldtagcaption9" value="PA" />
+      </field>
+      <field id="apellido_paterno1">
+        <phrase id="fldcaption" value="Apellido Paterno (Conyugue)" />
+      </field>
+      <field id="apellido_materno1">
+        <phrase id="fldcaption" value="Apellido Materno(Conyugue)" />
+      </field>
+      <field id="nombres1">
+        <phrase id="fldcaption" value="Nombres (Conyugue)" />
+      </field>
+      <field id="direccion1">
+        <phrase id="fldcaption" value="Direccion(Conyugue)" />
+      </field>
+    </table>
+    <table id="seleccion_cargos">
+      <phrase id="tblcaption" value="seleccion cargos" />
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="fiscalia">
+        <phrase id="fldcaption" value="Fiscalia" />
+      </field>
+    </table>
+    <table id="t_grados">
+      <phrase id="tblcaption" value="GRADOS DE PARENTESCO" />
+      <field id="id_grado">
+        <phrase id="fldcaption" value="id grado" />
+      </field>
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+    </table>
+    <table id="t_parentesco">
+      <phrase id="tblcaption" value="PARENTESCO" />
+      <field id="id_parentesco">
+        <phrase id="fldcaption" value="Id parentesco" />
+      </field>
+      <field id="id_grado">
+        <phrase id="fldcaption" value="id grado" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+    </table>
+    <table id="s_consanguineo">
+      <phrase id="tblcaption" value="s consanguineo" />
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+    </table>
+    <table id="s_afinidad">
+      <phrase id="tblcaption" value="s afinidad" />
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+    </table>
+    <table id="s_adopcion">
+      <phrase id="tblcaption" value="s adopcion" />
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+    </table>
+    <table id="s_parentesco_global">
+      <phrase id="tblcaption" value="s parentesco global" />
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+      <field id="parentesco">
+        <phrase id="fldcaption" value="Parentesco" />
+      </field>
+    </table>
+    <table id="t_declaraciones">
+      <phrase id="tblcaption" value="Reporte" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="fecha">
+        <phrase id="fldcaption" value="Fecha" />
+      </field>
+      <field id="archivo">
+        <phrase id="fldcaption" value="Archivo" />
+      </field>
+    </table>
+    <table id="declaraciones">
+      <phrase id="tblcaption" value="declaraciones" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido1">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="apellido_paterno3">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno3">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres2">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="fecha">
+        <phrase id="fldcaption" value="Fecha" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="archivo">
+        <phrase id="fldcaption" value="Archivo" />
+      </field>
+    </table>
+    <table id="incompatibilidad">
+      <phrase id="tblcaption" value="Incompatibilidad" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="expedido">
+        <phrase id="fldcaption" value="Expedido" />
+      </field>
+      <field id="apellido_paterno">
+        <phrase id="fldcaption" value="Apellido Paterno" />
+      </field>
+      <field id="apellido_materno">
+        <phrase id="fldcaption" value="Apellido Materno" />
+      </field>
+      <field id="nombres">
+        <phrase id="fldcaption" value="Nombres" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional" />
+      </field>
+      <field id="unidad">
+        <phrase id="fldcaption" value="Unidad" />
+      </field>
+      <field id="cargo">
+        <phrase id="fldcaption" value="Cargo" />
+      </field>
+      <field id="fiscalia_otro">
+        <phrase id="fldcaption" value="Fiscalia otro" />
+      </field>
+      <field id="salario_mayor_si">
+        <phrase id="fldcaption" value="Salario Mayor Si" />
+      </field>
+      <field id="grado_si">
+        <phrase id="fldcaption" value="Grado Si" />
+      </field>
+      <field id="actividad_si">
+        <phrase id="fldcaption" value="Actividad Si" />
+      </field>
+    </table>
+    <table id="t_denuncias">
+      <phrase id="tblcaption" value="Denuncias" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN" />
+      </field>
+      <field id="fecha_denuncia">
+        <phrase id="fldcaption" value="Fecha denuncia" />
+      </field>
+      <field id="nombres_apellidos">
+        <phrase id="fldcaption" value="Nombres Apellidos Denunciado" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional de Trabajo" />
+      </field>
+      <field id="detalles">
+        <phrase id="fldcaption" value="Detalles" />
+      </field>
+    </table>
+    <table id="t_mp_si_no">
+      <phrase id="tblcaption" value="PARTE VI: PARIENTES QUE TRABAJAN  EN EL MINISTERIO PUBLICO" />
+      <phrase id="tblpagecaption1" value="Page 1" />
+      <field id="id">
+        <phrase id="fldcaption" value="Id" />
+      </field>
+      <field id="grado">
+        <phrase id="fldcaption" value="Grado" />
+      </field>
+      <field id="grado_si">
+        <phrase id="fldtagvalue1" value="X" />
+        <phrase id="fldtagcaption1" value="SI" />
+        <phrase id="fldcaption" value="SI" />
+      </field>
+      <field id="grado_no">
+        <phrase id="fldtagvalue1" value="X" />
+        <phrase id="fldtagcaption1" value="NO" />
+        <phrase id="fldcaption" value="NO" />
+      </field>
+    </table>
+    <table id="t_fiscalias">
+      <phrase id="tblcaption" value="t fiscalias" />
+      <field id="id_fiscalia_otro">
+        <phrase id="fldcaption" value="Id fiscalia otro" />
+      </field>
+      <field id="departamento">
+        <phrase id="fldcaption" value="Departamento" />
+        <phrase id="fldtagvalue1" value="BENI" />
+        <phrase id="fldtagcaption1" value="BENI" />
+        <phrase id="fldtagvalue2" value="COCHABAMBA" />
+        <phrase id="fldtagcaption2" value="COCHABAMBA" />
+        <phrase id="fldtagvalue3" value="CHUQUISACA" />
+        <phrase id="fldtagcaption3" value="CHUQUISACA" />
+        <phrase id="fldtagvalue4" value="LA PAZ" />
+        <phrase id="fldtagcaption4" value="LA PAZ" />
+        <phrase id="fldtagvalue5" value="ORURO" />
+        <phrase id="fldtagcaption5" value="ORURO" />
+        <phrase id="fldtagvalue6" value="PANDO" />
+        <phrase id="fldtagcaption6" value="PANDO" />
+        <phrase id="fldtagvalue7" value="POTOSI" />
+        <phrase id="fldtagcaption7" value="POTOSI" />
+        <phrase id="fldtagvalue8" value="SANTA CRUZ" />
+        <phrase id="fldtagcaption8" value="SANTA CRUZ" />
+        <phrase id="fldtagvalue9" value="TARIJA" />
+        <phrase id="fldtagcaption9" value="TARIJA" />
+      </field>
+      <field id="denominacion">
+        <phrase id="fldcaption" value="denominacion" />
+      </field>
+    </table>
+    <table id="consulta_denuncia">
+      <phrase id="tblcaption" value="consulta denuncia" />
+      <field id="ci_run">
+        <phrase id="fldcaption" value="CI RUN_Denunciante" />
+      </field>
+      <field id="nombres_apellidos">
+        <phrase id="fldcaption" value="Nombres Apellidos Denunciado" />
+      </field>
+      <field id="unidad_organizacional">
+        <phrase id="fldcaption" value="Unidad Organizacional de Trabajo" />
+      </field>
+      <field id="detalles">
+        <phrase id="fldcaption" value="Detalles" />
+      </field>
+      <field id="fecha_denuncia">
+        <phrase id="fldcaption" value="Fecha denuncia" />
+      </field>
+    </table>
+  </project>
+</ew-language>

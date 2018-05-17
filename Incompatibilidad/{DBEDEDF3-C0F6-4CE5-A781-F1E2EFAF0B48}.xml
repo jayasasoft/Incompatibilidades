@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2017/02/14" author="e.World Technology Ltd.">
+  <project id="{DBEDEDF3-C0F6-4CE5-A781-F1E2EFAF0B48}" file="C:\Users\Usuario\Documents\PHPMaker\Projects\Incompatibilidad.pmp" name="Incompatibilidad" product="PHPMaker" version="13.0" datetime="2017/02/14 13:38:28" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0">
+    <table id="t_actiividades_remuneradas" name="t_actiividades_remuneradas" caption="PARTE VII :ACTIVIDADES Y PERCEPCIONES ECONOMICAS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_conyugue" name="t_conyugue" caption="PARTE II: DATOS DEL CONYUGUE O CONVIVIENTE" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_funcionario" name="t_funcionario" caption="PARTE I: INFORMACION BASICA DEL FUNCIONARIO" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_pa_afinidad" name="t_pa_afinidad" caption="PARTE IV : RELACIONES DE PARENTESCO POR AFINIDAD:  SUEGROS CUÑADOS, HIJOS POLITICOS (registrar a los parientes con vida)" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,47" priv="1" />
+    <table id="t_pa_consanguinidad" name="t_pa_consanguinidad" caption="PARTE III: RELACIONES DE PARENTESCO POR CONSANGUINIDAD:   HIJOS, PADRES, HERMANOS Y ABUELOS (Registrar a los parientes con vida)" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_parientes_mp" name="t_parientes_mp" caption="Detallar los parientes hasta el cuarto grado de consaguinidad y segundo grado de afinidad que trabajan en el Ministerio Público" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_re_adopcion" name="t_re_adopcion" caption="PARTE V: RELACIONES POR ADOPCION: HIJOS EN ADOPCION , PADRES ADOPTANTES/ PADRASTROS (registrar a los que se encuentran vivos)" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_salario" name="t_salario" caption="Declare si el salario mensual que Ud. percibe supera el establecido para el Presidente del EStado Plurinacional de Bolvia (Tomar en ciuenta el salario que percibe en el Ministerio Público y fuera del Ministerio Píublico)" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_usuario" name="t_usuario" caption="Usuarios" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="userlevelpermissions" name="userlevelpermissions" caption="userlevelpermissions" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="userlevels" name="userlevels" caption="Niveles" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="audittrail2" name="audittrail2" caption="audittrail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="consanguineos" name="consanguineos" caption="Consanguineos" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="afinidad" name="afinidad" caption="Afinidad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="parientes" name="parientes" caption="Parientes MP" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_cargos" name="t_cargos" caption="CARGOS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_unidad" name="t_unidad" caption="UNIDADES DEPENDIENTES" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_unidad_organizacional" name="t_unidad_organizacional" caption="UNIDAD ORGANIZACIONAL" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="conyugue" name="conyugue" caption="CONSULTA DE CONYUGUE" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="seleccion_cargos" name="seleccion_cargos" caption="seleccion cargos" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_grados" name="t_grados" caption="GRADOS DE PARENTESCO" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_parentesco" name="t_parentesco" caption="PARENTESCO" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="s_consanguineo" name="s_consanguineo" caption="s consanguineo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="s_afinidad" name="s_afinidad" caption="s afinidad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="s_adopcion" name="s_adopcion" caption="s adopcion" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="s_parentesco_global" name="s_parentesco_global" caption="s parentesco global" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_declaraciones" name="t_declaraciones" caption="Reporte" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="declaraciones" name="declaraciones" caption="declaraciones" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="Incompatibilidad" name="Incompatibilidad" caption="Incompatibilidad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_denuncias" name="t_denuncias" caption="Denuncias" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="t_mp_si_no" name="t_mp_si_no" caption="PARTE VI: PARIENTES QUE TRABAJAN  EN EL MINISTERIO PUBLICO" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,111" priv="1" />
+    <table id="t_fiscalias" name="t_fiscalias" caption="t fiscalias" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+    <table id="consulta_denuncia" name="consulta_denuncia" caption="consulta denuncia" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0" priv="1" />
+  </project>
+</configuration>
