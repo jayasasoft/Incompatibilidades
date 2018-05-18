@@ -1292,18 +1292,19 @@ class ct_funcionario_view extends ct_funcionario {
 			$this->ShowMessage();
 			return;
 		}
-		$mysqli = new mysqli("localhost", "root", "", "bd_incompatibilidades");
-        $parametro = $this->Id->CurrentValue; 
+		
+        $mysqli = new mysqli("localhost", "root", "", "bd_incompatibilidades");
+        $parametro = (int) $this->Id->CurrentValue; 
         
         //CONYUGUE
-        $result3= $mysqli->query("SELECT id FROM t_conyugue where id = ".$parametro." "); 
+        $result3= $mysqli->query("SELECT id FROM t_conyugue where id = ".$parametro.""); 
         $row_cnt3 = $result3->num_rows;
         if ($row_cnt3 == 0) 
         {
-        $fila_conyugue = $mysqli->query("INSERT INTO t_conyugue  VALUES ('".$parametro."','---','---','---','---','---','---')");
+        $fila_conyugue = $mysqli->query("INSERT INTO t_conyugue  VALUES (".$parametro.",'---','---','---','---','---','---')");
         }
         //mysqli_free_result($fila_conyugue); 
-        //mysqli_free_result($result3);     
+          
         //ADOPCION
         $result1 = $mysqli->query("SELECT Id FROM t_re_adopcion where id = ".$parametro.""); 
         $row_cnt1 = $result1->num_rows;
@@ -1325,9 +1326,14 @@ class ct_funcionario_view extends ct_funcionario {
          // CONSANGUINEOS
         $result4= $mysqli->query("SELECT Id FROM t_pa_consanguinidad where id = ".$parametro.""); 
         $row_cnt4 = $result4->num_rows;
-        if ($row_cnt4 == 0) 
-        {
+        
+        if ($row_cnt4 < 10){
         $fila_consanguineo1 = $mysqli->query("INSERT INTO t_pa_consanguinidad  VALUES ('".$parametro."','---','---','---','---')");
+        $fila_consanguineo2 = $mysqli->query("INSERT INTO t_pa_consanguinidad  VALUES ('".$parametro."','----','---','---','---')");
+        $fila_consanguineo3 = $mysqli->query("INSERT INTO t_pa_consanguinidad  VALUES ('".$parametro."','-----','---','---','---')");
+        $fila_consanguineo4 = $mysqli->query("INSERT INTO t_pa_consanguinidad  VALUES ('".$parametro."','-----','----','---','---')");
+        $fila_consanguineo5 = $mysqli->query("INSERT INTO t_pa_consanguinidad  VALUES ('".$parametro."','-----','----','---','----')");
+        
         }
         
         // AFINIDAD
@@ -1337,7 +1343,6 @@ class ct_funcionario_view extends ct_funcionario {
         {
         $fila_afinidad = $mysqli->query("INSERT INTO t_pa_afinidad  VALUES ('".$parametro."','---','---','---','---')");
         }
-       mysqli_free_result(); 
       
        
         $this->ExportDoc = ew_ExportDocument($this, "v");
@@ -1360,7 +1365,7 @@ class ct_funcionario_view extends ct_funcionario {
 		$Doc->Text .= $sHeader;
 		$this->ExportDocument($Doc, $rs, $this->StartRec, $this->StopRec, "view");
         // Export detail records (t_conyugue)
-		$Doc->Text .='<div class="caja" style="page-break-after:always">"Parte II : DATOS DEL CONYUGUE O CONVIVIENTE <br> </div>';
+		$Doc->Text .='<div class="caja" style="page-break-after:always">"Parte II : DATOS DEL CONYUGUE O CONVIVIENTE <br> </div>'.$pa;
 		if (EW_EXPORT_DETAIL_RECORDS && in_array("t_conyugue", explode(",", $this->getCurrentDetailTable()))) {
 			global $t_conyugue;
 			if (!isset($t_conyugue)) $t_conyugue = new ct_conyugue;
